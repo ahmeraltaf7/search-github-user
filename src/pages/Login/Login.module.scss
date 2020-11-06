@@ -1,0 +1,28 @@
+.login {
+  position: relative;
+  min-height: 100vh;
+  background: url(../../images/pexels-jessica-lewis-583846.jpg)  no-repeat fixed center;
+  background-size: cover;
+  .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba($color: #000000, $alpha: 0.6);
+    display: grid;
+    place-items: center;
+    .container {
+      width: 90vw;
+      max-width: 600px;
+      text-align: center;
+    }
+    h1 {
+      margin-bottom: 1.5rem;
+      color: whitesmoke;
+    }
+    .loginBtn{
+      padding: 0.5rem 1.5rem;
+    }
+  }
+}
