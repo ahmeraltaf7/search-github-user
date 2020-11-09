@@ -28,10 +28,10 @@ export default {
   hireable: null,
   bio: "I'm a web developer with a passion for Front-End development.",
   twitter_username: null,
-  public_repos: 0,
+  public_repos: 4,
   public_gists: 0,
   followers: 0,
   following: 0,
   created_at: "2019-09-17T15:01:20Z",
-  updated_at: "2020-11-06T06:18:53Z",
+  updated_at: "2020-11-07T15:56:00Z",
 };
